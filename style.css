@@ -18,9 +18,18 @@ p {
 }
 
 #blank {
-    background: blue;
+    height: 600px;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    width: 600px;
+    overflow: visible;
+    border: 2px solid #000;
 }
 
 #update {
-    background: green;
+    height: 600px;
+    width: 600px;
+    position: inherit;
+    border: 2px solid #000;
 }
